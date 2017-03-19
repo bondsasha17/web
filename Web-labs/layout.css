@@ -1,0 +1,44 @@
+﻿* {
+	        vertical-align: baseline;
+	        border: 0 none;
+	        outline: 0;
+	        padding: 0;
+	        margin: 0;
+	    }
+
+        header {
+            top:0;
+            width:100%;
+            background-color:black;
+            color:white;
+            height:60px;
+            text-align:center;
+            position:fixed;
+        }
+
+        div.leftcolumn{
+            background-color:white;
+            position:fixed;
+            height:100%;
+            width:20%;
+            top:60px;
+        }
+
+        div.rightcolumn{
+            background-color:aliceblue;
+            width:80%;
+            height:100%;
+            color:black;
+            float:right;
+            margin-top:60px;
+        }
+
+        div#footer{
+            background-color:black;
+            color:white;
+            position:fixed;
+            bottom: 0;
+            height:30px;
+            width:100%;
+            text-align:center;
+        }
